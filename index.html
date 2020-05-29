@@ -1,0 +1,61 @@
+<!-- to jest blok komentarza w kodzie HTML -->
+<!-- znacznik HTML oznacza początek dokumentu HTML -->
+<html>
+<!-- head to sekcja nagłówkowa dokumentu HTML. Umieszczamy tu miedzy innymi 
+informację o tym gdzie znajduje się plik ze stylem strony 
+(wygląd czcionek i innych elementów strony, kolory, wyrównania itp.) 
+charset - ustawia sposób kodowania znaków na stronie. Bez prawidłowej informacji
+o kodowaniu znaków w przeglądarce internetowej nie zobaczyćie liter z ogonkami.
+-->
+<head>
+    <meta charset="UTF-8"> <!-- kodowanie znaków ustawiamy na UTF-8 -->
+    <link rel="stylesheet" href="styl_strony.css"> <!-- ustalamy plik ze stylem strony na styl_strony.css -->
+    <title>PORTAL PŁYWACKI</title> <!-- Napis strona główna pojawi się w zakładce przeglądarki internetowej -->
+</head>
+<body> <!-- body to część strony w której umieszczacie elementy do wyświetlenia w oknie przeglądarki. 
+        Sekcja zaczyna się słowem body a kończy słowej body poprzedzonym ukośnikiem-->
+<h2>STRONA GŁÓWNA PORTALU PŁYWACKIEGO</h2> <!-- h1 oznacza nagłówek stronia pierwszego. Możemy użyć wartości od h1 do h6 -->
+
+<!-- div to blok który możemy sformatować wg. naszego pomysłu.  
+   Na ten konkretny blok wskazuje nazwa w cudzysłowie po słowie class.
+   Wygląd zawartości bloku mamy zdefiniowany w pliku styl_strony.css w nawiasach klamrowych
+   po .obrazek_nad_menu.css 
+-->
+<div class="obraz_1">
+    <!-- img dodaje nam obrazek na stronę. Dodany obrazek musi zawierać nazwę obrazka i rozszerzenie po kropce --> 
+    <img src="obraz_1.jpg">
+</div>
+
+<div class="MENU">
+    MENU: 
+    <!-- znacznik "a" wstawia link na naszą stronę "href" to dokładny adres strony 
+        lub nazwa pliku do którego chcemy się przenieść.
+        W tym przypadku linki otworzą w przeglądarce internetowej pliki które znajdują się
+        w folderze z nasza stroną 
+    -->
+    <a href="index.html">GŁÓWNA</a>
+    <a href="podstrona1.htm">STYLE</a>
+    <a href="podstrona2.htm">REKORDY</a>
+</div>
+
+<div class="tresc">
+    <!-- znacznik p oznacza nowy akapit -->
+    <p>
+       <b>PŁYWANIE</b> – metoda poruszania się po powierzchni wody lub w wodzie, wykorzystywana przez człowieka, zwierzęta oraz maszyny. Jest popularną aktywnością rekreacyjną, szczególnie w krajach o cieplejszym klimacie i naturalnych zbiornikach wodnych. Istnieje wiele stylów pływania. Do najpopularniejszych należą żabka, kraul, grzbietowy, motylkowy i, ze względu na prostotę, piesek. Pływanie to też jedna z metod rehabilitacji, a także dyscyplina sportu. 
+    </p>
+
+    <p>
+        Więcej informacji na temat pływania oraz zawodów pływackich możesz znaleźć na stronie: <a href="http://www.polswim.pl/">Polskiego Związku Pływackiego</a>
+    <p>
+    </p>
+   
+<b><i>UWAGA:</b>uważajcie na wirusy komputerowe. Jeśli chcecie wiedzieć jak sobie z nimi radzić - kliknij na obrazek: <a href="https://pl.wikipedia.org/wiki/Wirus_komputerowy/"><img src="obraz_4.jpg"></a>
+    
+</p>
+</ol>
+</p>
+
+</div>
+
+</body>
+</html>

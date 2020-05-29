@@ -1,0 +1,73 @@
+  /* background-color - ustawia kolor tła strony
+     font-family - ustawia rodzinę czcionek które będą używane na stronie
+     padding - ustawia odstęp oddzielający zawartość body od ramki przeglądarki
+     */
+body {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+ /* 
+    nieodwiedzony link 
+    ustawiany jego kolor na czerwony
+    text-decoration: none - usuwa podkreślenie z linku
+ */
+ a:link {
+    text-decoration: none;
+    color: red;
+  }
+  
+  /* odwiedzony link 
+    ustawiamy jego kolor na zielony*/
+  a:visited {
+    color: green;
+  }
+  
+ /* link nad którym trzymamy kursor myszy */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* link w który kliknęliśmy ale nie puściliśmy przycisku myszy */
+  a:active {
+    color: blue;
+  } 
+
+  /* ustawiamy wokół tabeli czarną ramkę o grubości 1piksela  */
+
+  table {
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+
+  table td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+
+  /* wyrównujemy obrazek_nad_menu do środka
+    left - do lewej  right - do prawej*/
+.obrazek_nad_menu {
+    text-align: center;
+}
+
+  /* ustawiamy color - kolor czcionki w menu, padding ustawia odstęp wewnątrz elementu, text-align:  left - wyrównuje element do lewej strony
+  right - do prawej, center do środka */ 
+.menu {
+    color: red;
+    padding: 20px;
+    text-align: left;
+}
+
+.do_lewej {
+    text-align: left;
+}
+
+.do_prawej {
+    text-align: right;
+}
+
+.do_srodka {
+    text-align: center;
+}
